@@ -2353,6 +2353,19 @@ dependencies = [
 ]
 
 [[package]]
+name = "serum-registry"
+version = "0.1.0"
+dependencies = [
+ "bytemuck",
+ "num_enum",
+ "serde",
+ "serum-common",
+ "solana-client-gen",
+ "spl-token",
+ "thiserror",
+]
+
+[[package]]
 name = "serum-safe"
 version = "0.1.0"
 dependencies = [

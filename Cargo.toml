@@ -4,8 +4,10 @@ members = [
     "common",
     "crank",
     "safe",
+    "registry",
 ]
 exclude = [
-    "safe/program",
     "dex",
+    "registry/program",
+    "stake/program",
 ]
